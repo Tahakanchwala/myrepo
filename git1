@@ -1,0 +1,168 @@
+10  mkdir mumbaigit
+   11  ls
+   12  cd mumbaigit/
+   13  git init
+   14  ls
+   15  ls -a
+   16  ls
+   17  ls -a
+   18  cat > myfile
+   19  cat myfile
+   20  rm -rf myfile
+   21  ls
+   22  cat > myfile
+   23  cat myfile
+   24  git status
+   25  git add .
+   26  git status
+   27  git commit -m "1st commit from mumbai"
+   28  git status
+   29  git log
+   30  git show 52691f2
+   31  git remote add origin https://github.com/kaaalirange/centeralrepo730PM.gi                                  t
+   32  git push origin master
+   33  git log
+   34  ls
+   35  vi myfile
+   36  cat myfile
+   37  git status
+   38  git add .
+   39  git commit -m "2nd line added from mumbai"
+   40  git push origin master
+   41  history
+
+
+
+ 1  yum update -y
+    2  which git
+    3  yum install git
+    4  git config --global user.name "shital"
+    5  git config --global user.email "shital@gmail.com"
+    6  git config --list
+    7  mkdir londongit
+    8  cd londongit/
+    9  git init
+   10  ls -a
+   11  git remote add origin https://github.com/kaaalirange/centeralrepo730PM.git
+   12  ls
+   13  git pull origin master
+   14  ls
+   15  cat myfile
+   16  git log
+   17  git log oneline
+   18  git log --oneline
+   19  git show ed3c959+
+   20  git show ed3c959
+   21  vi myfile
+   22  cat myfile
+   23  git add .
+   24  git commit -m "3rd line from shital london"
+   25  git status
+   26  git push origin master
+   27  history
+    28  git status
+   29  git log
+   30  git show 52691f2
+   31  git remote add origin https://github.com/kaaalirange/centeralrepo730PM.git
+   32  git push origin master
+   33  git log
+   34  ls
+   35  vi myfile
+   36  cat myfile
+   37  git status
+   38  git add .
+   39  git commit -m "2nd line added from mumbai"
+   40  git push origin master
+   41  history
+   42  ls
+   43  cd mumbaigit
+   44  ls
+   45  vi .gitignore
+   46  git status
+   47  git add .gitignore
+   48  git commit -m "this is .gitignore file"
+   49  git status
+   50  ls
+   51  ls -a
+   52  touch 1.txt 2.txt 1.class 2.class
+   53  ls
+   54  git status
+   55  git add .
+   56  git status
+   57  git commit -m "my 2 txt files"
+   58  ls
+   59  ls
+   60  touch adi.class
+   61  ls\
+   62  la
+   63  ls
+   64  git status
+   65  vi .gitignore
+   66  git status
+   67  git add .gitignore
+   68  git commit -m "gitignore modified"
+   69  ls
+   70  touch index.html
+   71  git status
+   72  vi .gitignore
+   73  ls
+   74  git status
+   75  rm -rf index.html
+   76  ls
+   77  git status
+   78  git add .gitignore
+   79  git commit -m "gitignore modified"
+   80  git status
+   81  git log
+   82  git log --oneline
+   83  git log --grep "mumbai"
+   84  git show  ed3c959b
+   85  git log --oneline
+   86  git branch
+   87  git branch newbranch
+   88  git branch
+   89  git checkout newbranch
+   90  git log --oneline
+   91  ls -a
+   92  cd ..
+   93  ls
+   94  git log --online
+   95  git log --oneline
+   96  cd mumbaigit
+   97  git log --oneline
+   98  cat > adixoofile
+   99  git add .
+  100  git commit -m "adixoofile"
+  101  git log --oneline
+  102  git show f5f2edb
+  103  ls
+  104  git log --oneline
+  105  git checkout master
+  106  ls
+  107  git log --oneline
+  108  cat > priyankafile
+  109  git checkout newbranch
+  110  ls
+  111  git checkout master
+  112  git add .
+  113  git status
+  114  git commit -m "priyanka file added"
+  115  git checkout newbranch
+  116  ls
+  117  git checkout master
+  118  ls
+  119  touch rajfile
+  120  ls
+  121  git checkout newbranch
+  122  ls
+  123  git add .
+  124  git commit -m "rajfile added"
+  125  ls
+  126  git log --online
+  127  git log --oneline
+  128  git checkout master
+  129  git log --oneline
+  130  ls
+  131  history
+
+

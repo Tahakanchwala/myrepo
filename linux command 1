@@ -1,0 +1,42 @@
+    1  yum update
+    2  yum update -y
+    3  cat > file1
+    4  cat file1
+    5  cat >> file 1
+    6  cat >> file1
+    7  cat file1
+    8  touch file2
+    9  cat file2
+   10  nano file3
+   11  nano file3
+   12  vi file4
+   13  cat file4
+   14  vi file4
+   15  cat file4
+   16  clear
+   17  ls
+   18* mkdir dir1
+   19  mkdir dir1
+   20  ls
+   21  ls -l
+   22  pwd
+   23  mkdir .dir2
+   24  ls
+   25  ls -a
+   26  ls -la
+   27  mkdir -p dira/dirb/dirc
+   28  ls
+   29  cd dira
+   30  ls
+   31  cd dirb
+   32  ls
+   33  cd dirc
+   34  ls
+   35  cd ..
+   36  cd ..
+   37  cd ..
+   38  cd dira/dirb/dirc
+   39  cd ../../..
+   40  ls
+   41  cd dira/dirb/dirc
+   42  history

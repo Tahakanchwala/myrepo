@@ -1,0 +1,81 @@
+1  ls
+    2  cd ..
+    3  ls
+    4  cd bin
+    5  ls
+    6  cd bash
+    7  ls -l
+    8  cat bash
+    9  cd ..
+   10  ls
+   11  cd home
+   12  ls
+   13  cd ec2-user/
+   14  ls
+   15  docker ps
+   16  docker ps\
+   17  docker ps
+   18  docker images
+   19  docker ps -a
+   20  docker run -it chef/chefdk /bin/bash
+   21  sudo -su
+   22  sudo su -
+   23  yum update -y
+   24  yum install docker
+   25  service docker start
+   26  service docker status
+   27  service docker stop
+   28  service docker status
+   29  service docker stop
+   30  service docker status
+   31  docker --version
+   32  docker info
+   33  service docker start
+   34  docker images
+   35  docker ps
+   36  docker ps -a
+   37  docker run -it ubuntu /bin/bash
+   38  cd bin/bash
+   39  cd /bin/bash
+   40  sudo su
+   41  ls
+   42  vi Dockerfile
+   43  ls
+   44  docker build -t test .
+   45  service docker start
+   46  docker build -t test .
+   47  vi Dockerfile
+   48  docker build -t test .
+   49  docker images
+   50  docker run -it --name testcontainer test /bin/bash
+   51  service docker start
+   52  ls
+   53  vi Dockerfile
+   54  cat Dockerfile
+   55  docker build -t myimg
+   56  docker build -t myimg Dockerfile
+   57  docker build -t myimg .
+   58  docker image
+   59  docker images
+   60  docker run -it --name mycont1 myimg /bin/bash
+   61  docker run -it --name mycont2 --volumes-from mycont1 ubuntu /bin/bash
+   62  docker run -it --name --privileged=true --volumes-from mycont1 ubuntu /bin/bash
+   63  docker run -it --name mycont2 --privileged=true --volumes-from mycont1 ubuntu /bin/bash
+   64  docker container ls
+   65  docker container ls --all
+   66  docker container rm mycont2
+   67  docker container ls --all
+   68  docker run -it --name mycont2 --privileged=true --volumes-from mycont1 ubuntu /bin/bash
+   69  docker start mycont1
+   70  docker attach mycont1
+   71  docker run -it --name mycont3 -v /rah ubuntu /bin/bash
+   72  docker run -it --name mycont4 --privileged=true --volumes-from mycont3 ubuntu /bn/bash
+   73*
+   74  docker container ls --all
+   75  docker container rm mycont4
+   76  docker run -it --name mycont4 --privileged=true --volumes-from mycont3 ubuntu /bn/bash
+   77  docker container rm mycont4
+   78  docker run -it --name mycont4 --privileged=true --volumes-from mycont3 ubuntu /bin/bash
+   79  docker start mycont3
+   80  docker attach mycont3
+   81  history
